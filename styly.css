@@ -1,0 +1,13 @@
+html {
+    margin-left: auto;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.a {
+text-decoration: underline dotted;
+}
+.b {
+    background-color: yellow;
+}
