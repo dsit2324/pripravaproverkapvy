@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styly.css">
     <title>Základy HTML - příklad zadání praktické prověrky</title>
   </head>
   <header>
@@ -13,14 +14,14 @@
     </ul>
   </header>
   <body>
-    <h2 id="1"></section>Textové úpravy</h2>
+    <h2 id="1">Textové úpravy</h2>
     <h3>Adresy používané na internetu</h3>
     <p>
       V digitálním světě hrají adresy klíčovou roli. Stejně jako máme adresu pro
       naše fyzické domovy, existují i adresy pro webové stránky a jiné digitální
-      zdroje na internetu. Tyto adresy jsou základním stavebním kamenem
+      zdroje na internetu. <br> Tyto adresy jsou základním stavebním kamenem
       internetu a umožňují uživatelům přistupovat k různým informacím, službám a
-      zdrojům online prostřednictvím webových prohlížečů a dalších aplikací. Zde
+      zdrojům online prostřednictvím webových prohlížečů a dalších aplikací.<br> Zde
       se podíváme na různé typy adres používané na internetu a jejich význam.
     </p>
     <h3>Příklady</h3>
@@ -62,17 +63,20 @@
             </td>
             <td>H<sub>2</sub>0</td>
             <td>&amp;</td>
-            <td rowspan="4"></td>
+            <td rowspan="4"><img src="dog.png" width="200px"></td>
        </tr>
        <tr>
-            <td>c=a<sup>2</sup> + b<sup>2</sup></td>
+            <td>c = a<sup>2</sup> + b<sup>2</sup></td>
             <td>&copy;</td>
        </tr>
        <tfoot>
             <td>Odkaz</td>
-            <td><a href="www.w3c.org">www.w3c.org</a></td>
+            <td colspan="3"><a href="www.w3c.org">www.w3c.org</a></td>
        </tfoot>
-
-    </table>
+      </table>
+      <hr>
+      <footer>
+        &copy; <span class="b">Dominik Svoboda</span>, <b>IT1</b>, <span class="a">SŠPU</span> Opava
+      </footer>
   </body>
 </html>
