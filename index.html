@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styly.css">
     <title>Základy HTML - příklad zadání praktické prověrky</title>
   </head>
+  <body>
   <header>
     <h1>Příprava na praktickou prověrku</h1>
     <ul>
@@ -13,7 +14,6 @@
       <li><a href="#2">Tabulka</a></li>
     </ul>
   </header>
-  <body>
     <h2 id="1">Textové úpravy</h2>
     <h3>Adresy používané na internetu</h3>
     <p>
@@ -54,7 +54,7 @@
             <th>Entity</th>
         </tr>
         <tr>
-            <td rowspan="4">
+            <td rowspan="2">
                 <ul>
                     <li>IP adresa</li>
                     <li>Jmenná adresa</li>
@@ -63,15 +63,17 @@
             </td>
             <td>H<sub>2</sub>0</td>
             <td>&amp;</td>
-            <td rowspan="4"><img src="dog.png" width="200px"></td>
+            <td rowspan="2"><img src="dog.png" alt="dog" width="200"></td>
        </tr>
        <tr>
             <td>c = a<sup>2</sup> + b<sup>2</sup></td>
             <td>&copy;</td>
        </tr>
        <tfoot>
+        <tr>
             <td>Odkaz</td>
             <td colspan="3"><a href="www.w3c.org">www.w3c.org</a></td>
+        </tr>
        </tfoot>
       </table>
       <hr>
